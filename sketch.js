@@ -74,7 +74,7 @@ if(keyCode===UP_ARROW){
         Matter.Body.setStatic(bob1.body, {isStatic:false})
 if(bob1.body,{isStatic:false}){
   console.log("Morning!");
-  Matter.Body.applyForce(bob1.body, bob1.body.position, {x:-190});
+  Matter.Body.applyForce(bob1.body, bob1.body.position, {x:-190,y:-190});
   }
   
 	
