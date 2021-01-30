@@ -26,16 +26,14 @@ class Bob{
                 push ();
              translate (paperoes.x,paperoes.y);
              rectMode(CENTER);
-             strokeWeight(2);
-             fill (255,0,255);
+             stroke("magenta");
+             strokeWeight(3);
+             fill ("yellow");
     
              ellipse(0,0,this.r,this.r);
                 pop ();
         
     }}
-        
-        
-        
         
         
         
