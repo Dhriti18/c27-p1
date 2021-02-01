@@ -25,11 +25,11 @@ bob4=new Bob(524,395,61);
 bob5=new Bob(594,396,60);
 roof1=new Roof(455,185,370,50);
 
-String1=new Rope (roof1.body,bob1.body);
-String2=new Rope (roof1.body,bob2.body);
-String3=new Rope (roof1.body,bob3.body);
-String4=new Rope (roof1.body,bob4.body);
-String5=new Rope (roof1.body,bob5.body);
+String1=new Rope (roof1.body,bob1.body,-100);
+String2=new Rope (roof1.body,bob2.body,-50);
+String3=new Rope (roof1.body,bob3.body,0);
+String4=new Rope (roof1.body,bob4.body,50);
+String5=new Rope (roof1.body,bob5.body,100);
 
 	Engine.run(engine);
   

@@ -1,14 +1,15 @@
 class Rope {
-    constructor(BodyA,BodyB)
+    constructor(BodyA,BodyB,xOffset)
 {
     var options={
-lenght:0.9,
-stiffness:0.2,
+
 bodyA:BodyA,
 bodyB:BodyB,
+pointB:{x:xOffset,y:10}
 
     }
 this.chain=Constraint.create(options);
+this.xOffset=xOffset;
 World.add(world,this.chain);
 
 }
