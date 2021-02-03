@@ -15,11 +15,11 @@ World.add(world,this.chain);
 }
 display(){
 
-var posA=this.chain.bodyA.position;
-var posB=this.chain.bodyB.position;
+var pointA=this.chain.bodyA.position;
+var pointB=this.chain.bodyB.position;
 stroke("lemon");
 strokeWeight(2);
- line (posA.x,posA.y,posB.x,posB.y);
+ line (pointA.x,pointA.y,pointB.x+this.xOffset,pointB.y+10);
 
 }
 }
